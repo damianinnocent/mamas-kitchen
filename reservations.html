@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your table | Mama's Kitchen</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Mama's Kitchen logo" width="80" height="80">
+      <h1>Mama's Kitchen</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Week 2: build this page here -->
+      <h2>Book your table</h2>
+      <p>
+        We seat on a first-come basis most nights, but reservations are always honoured. Fridays and Saturdays book out, so reserve early.
+      </p>
+
+      <form>
+        <h3>Tell us when and we'll set the table.</h3>
+
+      </form>
+
+      <aside>
+        <h3>Opening hours</h3>
+        <label for="first-name"> First name</label>
+        <input type="text" id="first-name" name="first-name" required />
+
+        <label for="last-name">Last name</label>
+        <input type="text" id="last-name" name="last-name" required />
+
+        <label for="email"> Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone"> Phone</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="date"> Date</label>
+        <input type="date" id="date" name="date" required />
+
+        <div>
+        <label for="time"> Time</label>
+        <select>
+          <option value="">Select a time</option>
+          <option value="12:00">12:00 PM</option>
+          <option value="13:00">1:00 PM</option>
+          <option value="14:00">2:00 PM</option>
+          <option value="15:00">3:00 PM</option>
+          <option value="16:00">4:00 PM</option>
+          <option value="17:00">5:00 PM</option>
+          <option value="18:00">6:00 PM</option>
+          <option vslue="19:00">7:00 PM</option>
+          <option value="20:00">8:00 PM</option>
+          <option value="21:00">9:00 PM</option>
+        </select>
+        </div>
+
+        <div>
+          <label for="guests">Number of guests</label>
+          <input type="number" id="guests" name="guests" min="1" max="12" />
+          <p> Up to 12. for bigger groups, call us </p>
+        </div>
+
+        <fieldset>
+          <legend>where would you like to sit</legend>
+          <input type="radio" id="inside" name="seating" value="inside" />
+          <label for="inside">Inside</label>
+          <input type="radio" id="Outside" name="seating" value="outside" />
+          <label for="outside">Outside</label>
+        </fieldset>
+
+        <div>
+          <input type="checkbox" id="reminder" name="reminder" />
+          <label for="reminder">Send me a reminder</label>
+        </div>
+
+        <div>
+          <label for="notes">Special requests</label>
+          <textarea id="notes" name="notes" placeholder="Allergies, birthday, high table"></textarea>
+        </div>
+
+        <button>Reserve my table</button>
+        <p>
+          we are open seven days a week. The kitchen closes 30 minutes before close</p>
+          <table>
+            <caption>Schedule</caption>
+            <tbody>
+            <tr>
+              <th scope="row">Monday</th>
+              <td>12:00 to 10:00 PM</td>
+            </tr>
+            <tr>
+              <th scope="row">Tuesday</th>
+              <td>12:00 to 10:00 PM</td>
+            </tr>
+            <tr>
+              <th scope="row">Wednesday</th>
+              <td>12:00 to 10:00 PM</td>
+            </tr>
+            <tr>
+              <th scope="row">Thursday</th>
+              <td>12:00 to 11:00 PM</td>
+            </tr>
+            <tr>
+              <th scope="row">Friday</th>
+              <td>12;00 to 12:00 PM</td>
+            </tr>
+            <tr>
+              <th scope="row">Saturday</th>
+              <td>11:00 to 12:00 PM</td>
+            </tr>
+            <tr>
+              <th scope="row">Sunday</th>
+              <td>11:00 to 9:00 PM</td>
+            </tr>
+            </tbody>
+          </table>
+
+          <ul>
+            <li><strong>Adress:</strong> 42 Allen Avenue, Ikeja Lagos</li>
+            <li><strong>Phone:</strong> +234 801 234 5678</li>
+            <li><strong>Email:</strong> hello@mamaskitchen.com</li>
+            <li><strong>Private events:</strong> events@mamaskitchen.com</li>
+          </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p><strong>Mama's Kitchen</strong></p>
+      <p>Fresh traditional West African meals, cooked with love every day since 2004.</p>
+
+      <h2>Visit</h2>
+      <ul>
+        <li>42 Allen Avenue</li>
+        <li>Ikeja, Lagos</li>
+        <li><a href="tel:+2348012345678">+234 801 234 5678</a></li>
+      </ul>
+
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+      </ul>
+
+      <h2>Follow</h2>
+      <ul>
+        <li><a href="https://instagram.com">Instagram</a></li>
+        <li><a href="https://tiktok.com">TikTok</a></li>
+        <li><a href="https://x.com">Twitter</a></li>
+      </ul>
+
+      <p>© 2026 Mama's Kitchen. Made with love in Lagos.</p>
+    </footer>
+  </body>
+</html>
