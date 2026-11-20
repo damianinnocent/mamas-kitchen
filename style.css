@@ -4,6 +4,7 @@ body {
     font-family: 'Inter', Arial, Arial, sans-serif;
     font-size: 1rem;
     line-height: 1.6;
+    box-sizing: border-box;
 }
 
 h1,
@@ -30,6 +31,14 @@ a {
 }
 
 .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    font-family: "inter", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.5rem 0.5rem 0 0;
+    border-radius: 10px;
     background-color: #c0392b;
     color: #ffffff;
     text-decoration: none;
