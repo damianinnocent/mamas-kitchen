@@ -44,6 +44,24 @@ a {
     text-decoration: none;
 }
 
+header{
+    background-color: #ffffff;
+    padding: 1rem;
+    border-bottom: 1px solid #ece3d4;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 0.75rem;
+}
+
 header h1 {
     color: #c0392b;
 }
